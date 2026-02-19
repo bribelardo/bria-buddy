@@ -1,8 +1,8 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/hf-api/:path*",
-      "destination": "https://router.huggingface.co/:path*"
+      "src": "/hf-api/(.*)",
+      "dest": "https://router.huggingface.co/$1"
     }
   ]
 }
