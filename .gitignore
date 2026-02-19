@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ⚠️ Environment variables - NEVER push these!
+.env
+.env.local
+.env.production
+backend/.env
+*.env
